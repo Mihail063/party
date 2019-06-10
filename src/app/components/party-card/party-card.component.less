@@ -1,0 +1,25 @@
+.party-card {
+  &._free {
+    border-left: 10px solid #2a9807;
+  }
+
+  &._notFree {
+    border-left: 10px solid #b9a607;
+  }
+
+  & &__content_field {
+    margin: 5px;
+  }
+
+  & &__actions {
+    display: flex;
+    flex-direction: row-reverse;
+
+    &_button {
+      background: none;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
